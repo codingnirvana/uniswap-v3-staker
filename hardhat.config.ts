@@ -6,6 +6,8 @@ import 'hardhat-contract-sizer'
 
 import { HardhatUserConfig } from 'hardhat/config'
 
+import "uniswap-v3-deploy-plugin";
+
 const DEFAULT_COMPILER_SETTINGS = {
   version: '0.7.6',
   settings: {
